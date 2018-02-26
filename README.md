@@ -26,7 +26,7 @@
 from NCP_CSS.CSS import CSS
 from pathlib from Path
 
-css = CSS(client_id="hXbMNCEdRs36J6pa43Va", client_secret="E4u9msBJ98")
+css = CSS(client_id="client_id", client_secret="client_secret")
 css.translate_text(text="만나서 반갑습니다. 안녕 말포이. 안녕 해리포터,안녕 해리포터,안녕 해리포터,안녕 말포이,"
                    , file_path=Path(Path.cwd() / "test.mp3")
                    , speaker="jinho"
